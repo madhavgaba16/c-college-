@@ -10,6 +10,8 @@ int main(){
     }
     cout<<"\n";
 }
+cout<<matrix.size();
+cout<<matrix[0].size();
     return 0;
 
 }
