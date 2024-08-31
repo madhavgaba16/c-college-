@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class stack{
+class stackusingarray{
     int *arr;
     int size;
     int top = -1;
