@@ -3,9 +3,11 @@ using namespace std;
 class employee
 {
     int id;
-    static int count;
-
+   
 public:
+ static int count=1000;
+
+
     void setid()
     {
         cout << "enter the id of the employee";
@@ -18,8 +20,7 @@ public:
         cout << "total employee" << count << endl;
     };
 };
-int employee::count=1001
-;
+int employee::count;
 
 int main()
 {
@@ -33,5 +34,7 @@ int main()
     b.getid();
     c.setid();
     m.getid();
+   cout<< employee::count;
+
 
 }
