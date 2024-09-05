@@ -1,1 +1,1 @@
-int employee::count;
+ // point b ;
