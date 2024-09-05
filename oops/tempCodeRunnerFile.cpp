@@ -1,1 +1,2 @@
- // point b ;
+ s.getcolor();
+    //  s.getmoney();

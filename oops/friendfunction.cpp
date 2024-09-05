@@ -18,7 +18,7 @@ void  sum (complex o1,complex o2){
     b = o1.b+o2.b;
 }
 friend int sumC(complex a ,complex b);
-};
+}
  int sumC (complex a ,complex b){
     return a.a+b.a;
  }
