@@ -1,2 +1,1 @@
- s.getcolor();
-    //  s.getmoney();
+int X::i=1;

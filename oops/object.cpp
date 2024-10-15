@@ -7,7 +7,10 @@ class employee
 public:
  static int count=1000;
 
-
+  employee(){
+    cout<<"hello";
+    count = 1;
+  }
     void setid()
     {
         cout << "enter the id of the employee";
@@ -24,17 +27,20 @@ int employee::count;
 
 int main()
 {
-    employee m;
-    employee a;
-    employee b;
-    employee c;
-    m.setid();
-    a.setid();
-    b.setid();
-    b.getid();
-    c.setid();
-    m.getid();
-   cout<< employee::count;
+     employee *arr = new employee[n];
+     arr[0]();
+
+//     employee m;
+//     employee a;
+//     employee b;
+//     employee c;
+//     m.setid();
+//     a.setid();
+//     b.setid();
+//     b.getid();
+//     c.setid();
+//     m.getid();
+//    cout<< employee::count;
 
 
 }
